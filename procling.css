@@ -1,0 +1,168 @@
+@import url('');
+
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-navbar {
+    background-color: #7ED957;
+}
+
+.text-size-navbar {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-boxes {
+    margin: auto;
+    width: 195vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #7ED957;
+    color: white;
+    height: 13vh;
+    width: 49vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.btn-outline-color{
+    background-color: white;
+    color: #7ED957;
+    border-color: #7ED957;
+}
+
+.btn-outline-color:hover{
+    background-color: #7ED957;
+    color: white;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #ffffff8f;
+    border-color: #ffffff8f;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--bs-black);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}                           
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #7ed957;
+}
+
+.img-logo {
+    width: 16vh;
+    height: 16vh;
+}
+
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+img, svg {
+    vertical-align: middle;
+    width: -webkit-fill-available;
+}
+
+.footer{
+    background-color: #7ED957;
+    color: white;
+    width: 218vh;
+    height: 20vh;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    width: 107vh;
+    margin-top: 15vh;
+}
+
+.espaço{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rec{
+    width: 107vh;
+    margin-top: 5vh;
+}
+
+.masc{
+    width: 107vh;
+    margin-top: 5vh;
+}
+
+.sobre{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mv{
+    width: 107vh;
+    margin-top: 5vh;
+}
+
+.image{
+    width: 120vh;
+}
+
+.title2 {
+    background-color: #7ED957;
+    color: white;
+    height: 13vh;
+    width: 49vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 30vh;
+    margin-bottom: 10vh;
+}
+
+.image2{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.image3{
+    margin-top: 5vh;
+    width: 50vh;
+}
